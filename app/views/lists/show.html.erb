@@ -1,0 +1,12 @@
+<h1>List#show</h1>
+<p>Find me in app/views/list/show.html.erb</p>
+
+<h2>This is <%= @list.name %></h2>
+
+<h3> add a movie</h3>
+
+<ul>
+  <% @list.movies.each do |movie| %>
+    <li> <%=  movie.title %></li>
+  <% end %>
+</ul>
