@@ -4,7 +4,7 @@
 # The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
 #
 # Examples:
-List.destroy_all
+# List.destroy_all
 Movie.destroy_all
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
@@ -19,7 +19,7 @@ Movie.create(title: "Ocean's Eight",
 
 puts "#{Movie.count} movies created"
 
-5.times do
-  List.create(name: Faker::Hipster.word)
-end
+# 5.times do
+#   List.create(name: Faker::Hipster.word)
+# end
 puts "#{List.count} list created"
